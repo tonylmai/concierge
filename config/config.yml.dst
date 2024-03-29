@@ -1,0 +1,14 @@
+parameters:
+    amazon_s3:
+        key: 
+        secret: 
+        region: us-east-1
+        bucket: waai
+        concierge_bucket: waai-concierge-dat
+        ml_bucket: waai-ml-data
+    amazon_sqs:
+        ml_content_queue: MLContentQueue
+        destination_queue: DestinationQueue
+    filecabinet:
+        path: /var/filecabinet/
+
